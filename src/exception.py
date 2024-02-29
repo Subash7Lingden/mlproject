@@ -16,7 +16,7 @@ class CustomException(Exception): ## custamize class inheriting exception
         self.error_message= error_message_detail(error_message,error_detail=error_detail)
 
     def __str__(self): ## raising the custom exception will print error message
-        return self.error_meaasge
+        return self.error_message
 
 
     
